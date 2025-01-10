@@ -154,6 +154,7 @@ public class Main {
         displayFirstProduct.setText("");
         displaySecondProduct.setText("");
         displayThirdProduct.setText("");
+        displayResultFromUpdate.setText("");
         return numberOfProducts;
     }
 
@@ -181,6 +182,7 @@ public class Main {
          displayFirstProduct.setText("");
          displaySecondProduct.setText("");
          displayThirdProduct.setText("");
+         displayResultFromAdd.setText("");
     }
 
     static class Product {
@@ -269,46 +271,46 @@ public class Main {
         JLabel title = new JLabel("Iva's Shop");
         title.setFont(new Font("Arial", Font.ITALIC, 40));
         title.setForeground(Color.white);
-        title.setBounds(380, 10, 300, 100);
+        title.setBounds(380, 10, 600, 100);
         frame.add(title);
 
         JTextField input = new JTextField();
-        input.setBounds(200, 300, 150, 30);
+        input.setBounds(200, 300, 250, 30);
         input.setFont(new Font("Times New Roman", Font.PLAIN, 20));
 
         adding.setFont(new Font("Times New Roman", Font.BOLD, 20));
         adding.setForeground(Color.white);
-        adding.setBounds(10, 100, 400, 30);
+        adding.setBounds(10, 100, 600, 30);
         frame.add(adding);
 
         addingName.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         addingName.setForeground(Color.white);
-        addingName.setBounds(10, 150, 400, 30);
+        addingName.setBounds(10, 150, 600, 30);
         frame.add(addingName);
 
         inputName.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         inputName.setForeground(Color.black);
-        inputName.setBounds(220, 150, 150, 30);
+        inputName.setBounds(220, 150, 250, 30);
         frame.add(inputName);
 
         addingPrice.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         addingPrice.setForeground(Color.white);
-        addingPrice.setBounds(10, 200, 400, 30);
+        addingPrice.setBounds(10, 200, 600, 30);
         frame.add(addingPrice);
 
         inputPrice.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         inputPrice.setForeground(Color.black);
-        inputPrice.setBounds(210, 200, 150, 30);
+        inputPrice.setBounds(210, 200, 250, 30);
         frame.add(inputPrice);
 
         addingQuantity.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         addingQuantity.setForeground(Color.white);
-        addingQuantity.setBounds(10, 250, 400, 30);
+        addingQuantity.setBounds(10, 250, 600, 30);
         frame.add(addingQuantity);
 
         inputQuantity.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         inputQuantity.setForeground(Color.black);
-        inputQuantity.setBounds(240, 250, 150, 30);
+        inputQuantity.setBounds(240, 250, 250, 30);
         frame.add(inputQuantity);
 
         addProducts.setFont(new Font("Times New Roman", Font.PLAIN, 20));
@@ -328,22 +330,22 @@ public class Main {
 
         changedProduct.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         changedProduct.setForeground(Color.gray);
-        changedProduct.setBounds(450, 400, 150, 30);
+        changedProduct.setBounds(450, 400, 250, 30);
         frame.add(changedProduct);
 
         changedName.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         changedName.setForeground(Color.gray);
-        changedName.setBounds(225, 450, 150, 30);
+        changedName.setBounds(225, 450, 250, 30);
         frame.add(changedName);
 
         changedPrice.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         changedPrice.setForeground(Color.gray);
-        changedPrice.setBounds(150, 500, 150, 30);
+        changedPrice.setBounds(150, 500, 250, 30);
         frame.add(changedPrice);
 
         changedQuantity.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         changedQuantity.setForeground(Color.gray);
-        changedQuantity.setBounds(250, 550, 150, 30);
+        changedQuantity.setBounds(250, 550, 250, 30);
         frame.add(changedQuantity);
 
         displayNumberOfProducts.setText("Number of products: " + numberOfProducts);
@@ -354,12 +356,12 @@ public class Main {
 
         displayFirstProduct.setFont(new Font("Times New Roman", Font.BOLD, 20));
         displayFirstProduct.setForeground(Color.white);
-        displayFirstProduct.setBounds(10, 770, 600, 30);
+        displayFirstProduct.setBounds(10, 770, 1000, 30);
         frame.add(displayFirstProduct);
 
         displaySecondProduct.setFont(new Font("Times New Roman", Font.BOLD, 20));
         displaySecondProduct.setForeground(Color.white);
-        displaySecondProduct.setBounds(10, 820, 600, 30);
+        displaySecondProduct.setBounds(10, 820, 1000, 30);
         frame.add(displaySecondProduct);
 
         displayThirdProduct.setFont(new Font("Times New Roman", Font.BOLD, 20));
@@ -369,22 +371,22 @@ public class Main {
 
         updatedProduct.setFont(new Font("Times New Roman", Font.BOLD, 20));
         updatedProduct.setForeground(Color.white);
-        updatedProduct.setBounds(10, 400, 500, 30);
+        updatedProduct.setBounds(10, 400, 600, 30);
         frame.add(updatedProduct);
 
         updateName.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         updateName.setForeground(Color.white);
-        updateName.setBounds(10, 450, 250, 30);
+        updateName.setBounds(10, 450, 600, 30);
         frame.add(updateName);
 
         updatePrice.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         updatePrice.setForeground(Color.white);
-        updatePrice.setBounds(10, 500, 250, 30);
+        updatePrice.setBounds(10, 500, 600, 30);
         frame.add(updatePrice);
 
         updateQuantity.setFont(new Font("Times New Roman", Font.PLAIN, 20));
         updateQuantity.setForeground(Color.white);
-        updateQuantity.setBounds(10, 550, 250, 30);
+        updateQuantity.setBounds(10, 550, 600, 30);
         frame.add(updateQuantity);
 
         displayResultFromUpdate.setFont(new Font("Times New Roman", Font.BOLD, 20));
